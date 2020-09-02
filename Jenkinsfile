@@ -4,7 +4,6 @@ pipeline {
    stages {
       stage('compile') {
          steps {
-            git 'https://github.com/rishwanthrajaa/DevOps-Project1.git'
             sh 'mvn compile'
          }
       }
